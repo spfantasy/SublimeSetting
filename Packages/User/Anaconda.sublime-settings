@@ -1,0 +1,21 @@
+{
+    // https://github.com/DamnWidget/anaconda/blob/master/Anaconda.sublime-settings
+    "python_interpreter": "/Users/shihaoli/miniconda2/bin/python2.7",
+    "complete_parameters": false,//自动补全函数时是否匹配必要参数
+
+    "complete_all_parameters": false,//自动补全函数时是否匹配所有参数
+
+    "suppress_word_completions": false,//禁止代码补全
+
+    "suppress_explicit_completions": false,//禁止精确补全
+
+    "auto_formatting": true,//代码格式检查
+
+    "enable_docstrings_tooltip": false,// 显示文档
+    "enable_signatures_tooltip": false,//在悬浮窗中显示方法签名
+    "display_signatures": false,//显示方法签名
+
+    "anaconda_linting" : false,//PEP8
+
+    "auto_complete_triggers": [{"selector": "source.python - string - comment - constant.numeric", "characters": "."}]
+}
